@@ -1,0 +1,61 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "search people",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "searchIntent",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "what do you know about {name}",
+                        "who is {name}",
+                        "details about {name}",
+                        "i want to know about {name}",
+                        "can you tell me about {name}",
+                        "{name}",
+                        "tell me about {name}"
+                    ]
+                },
+                {
+                    "name": "list_all",
+                    "slots": [],
+                    "samples": [
+                        "names",
+                        "all names"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

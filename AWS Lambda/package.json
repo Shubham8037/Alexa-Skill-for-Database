@@ -1,0 +1,19 @@
+{
+  "name": "alexatest",
+  "version": "1.0.0",
+  "description": "alexa skill for Speak2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shubham8037"
+  },
+  "keywords": [
+    "alexa",
+    "skill"
+  ],
+  "author": "Shubham",
+  "license": "ISC"
+}
